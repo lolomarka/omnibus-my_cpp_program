@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Perform necessary my_cpp_program removal steps
+# after package is uninstalled.
+#
+
+echo "my_cpp_program has been uninstalled!"
+
+exit 0
