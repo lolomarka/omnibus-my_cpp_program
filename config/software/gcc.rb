@@ -17,7 +17,7 @@
 
 # do_not_auto_update
 name "gcc"
-default_version "10.2.0"
+default_version "14.2.0"
 
 dependency "gmp"
 dependency "mpfr"
@@ -35,6 +35,7 @@ version("7.5.0") { source sha256: "4f518f18cfb694ad7975064e99e200fe98af13603b47e
 version("8.4.0") { source sha256: "41e8b145832fc0b2b34c798ed25fb54a881b0cee4cd581b77c7dc92722c116a8" }
 version("9.3.0") { source sha256: "5258a9b6afe9463c2e56b9e8355b1a4bee125ca828b8078f910303bc2ef91fa6" }
 version("10.2.0") { source sha256: "27e879dccc639cd7b0cc08ed575c1669492579529b53c9ff27b0b96265fa867d" }
+version("14.2.0")
 
 source url: "https://mirrors.kernel.org/gnu/gcc/gcc-#{version}/gcc-#{version}.tar.gz"
 
