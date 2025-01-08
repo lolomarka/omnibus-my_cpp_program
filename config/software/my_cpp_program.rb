@@ -3,7 +3,7 @@ skip_transitive_dependency_licensing true # отключает транзити�
 whitelist_file './main.cpp' 
 
 source git: "https://github.com/lolomarka/my_cpp_program.git"
-# default_version '1.0.0'
+default_version '0.0.0.0'
 
 
 build do
