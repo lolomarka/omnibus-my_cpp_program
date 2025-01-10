@@ -9,6 +9,6 @@ version("0.0.0.2") { source sha1: "a4ca3836f68f59139ca40a70d734c273f81c0a6b" }
 source git: "https://github.com/lolomarka/my_cpp_program.git"
 
 build do
-    command "cmake"
+    command "cmake ./CMakeLists.txt"
     command "make"
 end
