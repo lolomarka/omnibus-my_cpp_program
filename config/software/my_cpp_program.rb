@@ -16,7 +16,7 @@ build do
         command "g++ ./main.cpp -o hello-world-app"
     end
 
-    command "mkdir -p #{install_dir/bin}"
+    command "mkdir -p #{install_dir}/bin"
 
     command "cp -r #{project_dir}/hello-world-app #{install_dir}/bin/"
 end
