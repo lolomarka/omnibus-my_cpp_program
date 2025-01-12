@@ -13,7 +13,7 @@ homepage "https://github.com/lolomarka"
 install_dir "#{default_root}/#{name}"
 # install_dir "/bin/#{name}"
 
-build_version Omnibus::BuildVersion.semver
+build_version "0.0.0.3"
 build_iteration 1
 
 # Creates required build directories
