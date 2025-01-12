@@ -16,7 +16,3 @@ build do
         command "g++ ./main.cpp -o hello-world-app"
     end
 end
-
-health_check do
-    shared_libs false
-end

@@ -49,6 +49,8 @@ use_git_caching false
 # software_gems ['omnibus-software', 'my-company-software']
 # local_software_dirs ['/path/to/local/software']
 
+health_check false
+
 # Windows architecture defaults
 # ------------------------------
 windows_arch   %w{x86 x64}.include?((ENV['OMNIBUS_WINDOWS_ARCH'] || '').downcase) ?
