@@ -18,5 +18,5 @@ build do
 
     mkdir "#{install_dir}/bin"
 
-    copy "#{project_dir}/hello-world-app","#{install_dir}/bin/"
+    copy "#{project_dir}/hello-world-app.out","#{install_dir}/bin/"
 end
