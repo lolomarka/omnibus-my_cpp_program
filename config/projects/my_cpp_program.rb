@@ -18,6 +18,11 @@ package :msi do
     localization 'en-US'
 end
 
+# We don't support appx builds, and they eat a lot of time.
+package :appx do
+    skip_packager true
+end
+
 build_version "0.0.0.3"
 build_iteration 1
 
