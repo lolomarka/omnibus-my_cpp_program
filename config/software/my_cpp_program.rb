@@ -13,10 +13,10 @@ build do
         command "cmake ./CMakeLists.txt"
         command "make -j #{workers}"
     else
-        command "g++ ./main.cpp -o hello-world-app"
+        command "g++ ./main.cpp -o hello-world-app.out"
     end
 
-    command "mkdir -p #{install_dir}/bin"
+    mkdir "#{install_dir}/bin"
 
-    command "cp -r #{project_dir}/hello-world-app #{install_dir}/bin/"
+    copy "#{project_dir}/hello-world-app","#{install_dir}/bin/"
 end

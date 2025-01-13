@@ -13,6 +13,10 @@ homepage "https://github.com/lolomarka"
 install_dir "#{default_root}/#{name}"
 # install_dir "/bin/#{name}"
 
+package :msi do
+    upgrade_code 'e2adb6ea-3e41-4a6e-abd7-73be8aaff051'
+end
+
 build_version "0.0.0.3"
 build_iteration 1
 
