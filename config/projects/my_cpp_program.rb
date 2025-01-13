@@ -15,6 +15,7 @@ install_dir "#{default_root}/#{name}"
 
 package :msi do
     upgrade_code 'e2adb6ea-3e41-4a6e-abd7-73be8aaff051'
+    localization 'en-US'
 end
 
 build_version "0.0.0.3"
