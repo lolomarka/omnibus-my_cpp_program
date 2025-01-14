@@ -28,7 +28,7 @@ build_iteration 1
 
 # Creates required build directories
 dependency "preparation"
-
+dependency "gcc"
 # my_cpp_program dependencies/components
 dependency "my_cpp_program"
 
